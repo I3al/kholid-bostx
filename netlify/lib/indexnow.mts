@@ -6,7 +6,7 @@ export const INDEXNOW_KEY = "fcbc8f02ef202e8efd8ebee5ae1eecbc";
 const PATHS = ["/", "/sitemap.xml"];
 
 export async function pingSearchEngines(): Promise<string> {
-  const siteUrl = (process.env.URL || "https://gilded-dieffenbachia-5177e7.netlify.app").replace(/\/$/, "");
+  const siteUrl = (process.env.URL || "https://bawangputihsembalun.netlify.app").replace(/\/$/, "");
   const host = new URL(siteUrl).host;
 
   const res = await fetch("https://api.indexnow.org/indexnow", {
