@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /api/
 
-Sitemap: https://gilded-dieffenbachia-5177e7.netlify.app/sitemap.xml
+Sitemap: https://bawangputihsembalun.netlify.app/sitemap.xml
